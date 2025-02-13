@@ -7,12 +7,13 @@
 # server process.
 
 # Basic Site Settings
+# theme                  : "jekyll-theme-minimal"
 locale                   : "en-US"
-title                    : "Tianyuan / Explorer"
+title                    : "Deep Explorer"
 title_separator          : "-"
-name                     : &name "Tianyuan"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "ZTY"
+description              : &description "description"
+url                      : https://deepnodes.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -22,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Tianyuan Z"
+  name             : "Deep Explorer"
   pronouns         : # example: "she/her"  
   bio              : "Hej Hej"
   location         : "Earth"
-  employer         : "FTNT"
+  employer         : "Guess"
   uri              : # URL
-  email            : "inshore@hotmail.com" 
+  email            : "tanya.zh@hotmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -44,7 +45,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "deepnodes"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
