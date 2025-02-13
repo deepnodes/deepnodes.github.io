@@ -39,18 +39,29 @@ Join us as we navigate the complexities of the K8S ecosystem and transform chall
 
 
 
-**Markdown generator**
+**Publications**
+Dive into a curated collection of insights, research, and thought leadership in the world of [your field, e.g., AI, technology, life, etc.]. Our Publications section is your gateway to in-depth articles, whitepapers, case studies, and reports that explore the latest trends, innovations, and ideas shaping the future.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+Whether you're looking for expert analysis, actionable knowledge, or inspiration, this space is designed to inform and empower. From cutting-edge discoveries to timeless wisdom, our publications are crafted to spark curiosity, drive conversation, and fuel progress.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Explore, learn, and stay ahead with us. The future is written here.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+
+**Talks**
+Step into a world of inspiration, innovation, and insight. Our Talks section brings you thought-provoking discussions, expert panels, and captivating presentations from leaders, visionaries, and trailblazers in [your field, e.g., AI, technology, wellness, etc.].
+
+Whether it’s a deep dive into emerging trends, a fireside chat with industry pioneers, or a TED-style talk that challenges the status quo, this space is designed to spark ideas, ignite curiosity, and drive meaningful conversations.
+
+Tune in, listen closely, and let these talks inspire your next big move. The future is being discussed here—don’t miss out.
+
+**Events**
+Gear up for more than just code and tech—our Events section is where mindsets shift, inner explorers awaken, and innovation thrives. From hands-on hackathons and developer meetups to mindset workshops and creativity labs, we curate experiences that go beyond the keyboard.
+
+Dive into events designed to challenge your thinking, spark your curiosity, and cultivate your inner innovator. Whether it’s a deep-dive into cutting-edge tech, a mindfulness session for developers, or a brainstorming jam to solve tomorrow’s problems, this is your space to grow, connect, and create.
+
+Join us as we blend technology with personal growth, and innovation with introspection. The future isn’t just built with code—it’s built with curiosity, courage, and collaboration.
+
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about Deep Exploration can be found in [the guide](https://deepnodes.github.io/markdown/), the [growing wiki](https://github.com/deepnodes/deepnodes.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/deepnodes/deepnodes.github.io/discussions). 
