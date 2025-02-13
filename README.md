@@ -11,7 +11,7 @@
 
 
 
-## Tranlations
+## Participate Translations
 
 
 
@@ -28,11 +28,11 @@ If you have bugfixes and enhancements that you would like to submit as a pull re
 ---
 <div align="center">
     
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+![pages-build-deployment](https://github.com/deepnodes/deepnodes.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/deepnodes/deepnodes.github.io.svg)](https://github.com/deepnodes/deepnodes.github.io/graphs/contributors)
+[![GitHub release](https://img.shields.io/github/v/release/deepnodes/deepnodes.github.io)](https://github.com/deepnodes/deepnodes.github.io/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/deepnodes/deepnodes.github.io?color=blue)](https://github.com/deepnodes/deepnodes.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+[![GitHub stars](https://img.shields.io/github/stars/deepnodes/deepnodes.github.io)](https://github.com/deepnodes/deepnodes.github.io)
+[![GitHub forks](https://img.shields.io/github/forks/deepnodes/deepnodes.github.io)](https://github.com/deepnodes/deepnodes.github.io/fork)
 </div>
