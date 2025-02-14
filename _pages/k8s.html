@@ -5,32 +5,18 @@ permalink: /k8s/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+
+{% if site.k8smap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/k8smap.html">See a map of all the K8s!</a></p>
+
 {% endif %}
 
-{% include base_path %}
+{% for post in site.k8s reversed %}
+  {% include archive-single-k8s.html %}
+{% endfor %}
 
-<!-- New style rendering if k8s categories are defined -->
-{% if site.k8s_category %}
-  {% for category in site.k8s_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.k8s reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.k8s reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+
 
 
 
