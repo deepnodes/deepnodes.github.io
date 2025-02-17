@@ -9,7 +9,7 @@
 # Basic Site Settings
 # theme                  : "jekyll-theme-minimal"
 locale                   : "en-US"
-title                    : "Deep Explorer"
+title                    : "DeepNodes - Explorer"
 title_separator          : "-"
 name                     : &name "ZTY"
 description              : &description "description"
@@ -23,7 +23,7 @@ repository               : "deepnodes/deepnodes.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Deep Explorer"
+  name             : "DeepNodes - Explorer"
   pronouns         : # example: "she/her"  
   bio              : "Hej Hej"
   location         : "Earth"
@@ -95,7 +95,7 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 talkmap_link             : false #change to true to add link to talkmap on talks page
 aimap_link               : false
 k8smap_link              : false
-eventssmap_link          : false
+eventsmap_link           : false
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
