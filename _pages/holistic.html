@@ -1,0 +1,22 @@
+---
+layout: archive
+title: "Holistic Thingking"
+permalink: /holistic/
+author_profile: true
+---
+
+
+{% if site.holisticmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/holisticmap.html">See a map of all the Holistic thinking!</a></p>
+
+{% endif %}
+
+{% for post in site.holistic reversed %}
+  {% include archive-single-holistic.html %}
+{% endfor %}
+
+
+
+
+

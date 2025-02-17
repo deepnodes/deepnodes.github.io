@@ -95,6 +95,7 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 talkmap_link             : false #change to true to add link to talkmap on talks page
 aimap_link               : false
 k8smap_link              : false
+holisticmap_link         : false
 eventsmap_link           : false
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -236,6 +237,9 @@ collections:
   k8s:
     output: true
     permalink: /:collection/:path/
+  holistic:
+    output: true
+    permalink: /:collection/:path/
   events:
     output: true
     permalink: /:collection/:path/
@@ -310,6 +314,14 @@ defaults:
       type: k8s
     values:
       layout: k8s
+      author_profile: true
+      share: true
+  # _holistic
+  - scope:
+      path: ""
+      type: holistic
+    values:
+      layout: holistic
       author_profile: true
       share: true
   # _events
