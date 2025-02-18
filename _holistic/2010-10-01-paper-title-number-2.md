@@ -1,8 +1,8 @@
 ---
 title: "Paper Title Number 2"
-collection: k8s
+collection: holistic
 category: manuscripts
-permalink: /k8s/2010-10-01-paper-title-number-2
+permalink: /holistic/2010-10-01-paper-title-number-2
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2010-10-01
 venue: 'Journal 1'

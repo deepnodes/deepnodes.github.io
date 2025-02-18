@@ -305,33 +305,37 @@ defaults:
       path: ""
       type: ai
     values:
-      layout: ai
+      layout: single
       author_profile: true
       share: true
+      comments: true
   # _k8s
   - scope:
       path: ""
       type: k8s
     values:
-      layout: k8s
+      layout: single
       author_profile: true
       share: true
+      comments: true
   # _holistic
   - scope:
       path: ""
       type: holistic
     values:
-      layout: holistic
+      layout: single
       author_profile: true
       share: true
+      comments: true
   # _events
   - scope:
       path: ""
       type: events
     values:
-      layout: events
+      layout: single
       author_profile: true
       share: true
+      comments: true
 
 
 
