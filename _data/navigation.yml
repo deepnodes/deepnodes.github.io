@@ -8,7 +8,7 @@ main:
   - title: "AI Hub"
     url: /ai/
 
-  - title: "Cloud Computing Matrix"
+  - title: "Cloud Matrix"
     url: /k8s/
     
   - title: "Holistic Thinking"
@@ -23,8 +23,8 @@ main:
   - title: "Events"
     url: /events/    
 
-  # - title: "Teaching"
-  #   url: /teaching/    
+  - title: "Teaching"
+    url: /teaching/    
     
   # - title: "Portfolio"
   #   url: /portfolio/

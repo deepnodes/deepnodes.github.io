@@ -9,7 +9,7 @@
 # Basic Site Settings
 # theme                  : "jekyll-theme-minimal"
 locale                   : "en-US"
-title                    : "DeepNodes - Explorer"
+title                    : "DeepNodes - Holistic Creativity"
 title_separator          : "-"
 name                     : &name "ZTY"
 description              : &description "description"
@@ -23,7 +23,7 @@ repository               : "deepnodes/deepnodes.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "DeepNodes - Explorer"
+  name             : "DeepNodes - Holistic Creativity"
   pronouns         : # example: "she/her"  
   bio              : "Hej Hej"
   location         : "Earth"
