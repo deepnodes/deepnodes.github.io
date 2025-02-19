@@ -6,7 +6,7 @@ location: "Cloud Computing Matrix"
 collection: k8s
 category: Security
 permalink: /k8s/2024-02-18-k8s-apiserver-ca
-excerpt: 'Kubernetes APIServer CA'
+excerpt: 'Config Kubernetes API Server CA'
 date: 2024-02-18
 paperurl: 'http://deepnodes.github.io//k8s/2024-02-18-k8s-apiserver-ca.md'
 citation: 'Deepnodes, Explore. (2024). &quot; Kubernetes Need to Know - CAs.&quot; <i>Cloud Computing Matrix</i>. 1(3).'
