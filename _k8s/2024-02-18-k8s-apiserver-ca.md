@@ -1,10 +1,10 @@
 ---
 title: "Kubernetes Need to Know - API Server CA"
+type: "Authentication"
+venue: "K8S"
+location: "Cloud Computing Matrix"
 collection: k8s
 category: Security
-type: K8S
-venue: "Cloud Computing Matrix"
-location: Authentication
 permalink: /k8s/2024-02-18-k8s-apiserver-ca
 excerpt: 'Kubernetes APIServer CA'
 date: 2024-02-18
