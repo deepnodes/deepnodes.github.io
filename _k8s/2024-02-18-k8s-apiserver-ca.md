@@ -1,14 +1,17 @@
 ---
-title: "Kubernetes Need to Know - APIServer CA"
+title: "Kubernetes Need to Know - API Server CA"
 collection: k8s
-category: CA
+category: Security
+type: K8S
+venue: "Cloud Computing Matrix"
+location: Authentication
 permalink: /k8s/2024-02-18-k8s-apiserver-ca
 excerpt: 'Kubernetes APIServer CA'
 date: 2024-02-18
-venue: 'Cloud Computing Matrix'
 paperurl: 'http://deepnodes.github.io//k8s/2024-02-18-k8s-apiserver-ca.md'
 citation: 'Deepnodes, Explore. (2024). &quot; Kubernetes Need to Know - CAs.&quot; <i>Cloud Computing Matrix</i>. 1(3).'
 ---
+
 
 ```sh
 ### ca is in kubelet.conf
