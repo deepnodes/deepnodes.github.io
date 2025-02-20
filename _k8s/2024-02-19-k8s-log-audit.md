@@ -12,7 +12,7 @@ paperurl: 'http://deepnodes.github.io//k8s/2024-02-18-k8s-log-audit.md'
 citation: 'Deepnodes, Explore. (2024). &quot; Kubernetes Monitoring - Log Audit.&quot; <i>Cloud Computing Matrix</i>. 1(3).'
 ---
 
-### 0.Notes
+## 0.Notes
 
 [Log Audit](https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/)
 
@@ -48,7 +48,7 @@ And it can specify what to log, e.g:
 **API Server Configure File's Location**
 Master Node: /etc/kubernetes/manifests/kube-apiserver.yaml
 
-### 1.How To
+## 1.How To
 
 **Prepare Log Policy**
 
