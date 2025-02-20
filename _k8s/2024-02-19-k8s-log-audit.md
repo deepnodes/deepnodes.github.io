@@ -19,39 +19,39 @@ citation: 'Deepnodes, Explore. (2024). &quot; Kubernetes Monitoring - Log Audit.
 Kubernetes audit logs provide a detailed record of all activities that occur within a cluster. These logs capture information about requests made to the Kubernetes API server, including who made the request, what actions were performed, and whether the requests were successful or denied.
 
 **Configurable Parameters**
-Will be mentioned in kube-apiserver.yaml 
+Will be mentioned in kube-apiserver.yaml
     - Where the logs are *stored*, e.g: "/var/log/kubernetes/kubernetes-logs.log"
     - How long will Log files be *retained*, e.g: 5 *days*.
     - How many logs will be retained, e.g: at maximum, a number of *10* old audit logs *files* are *retained*.
 
 **Log Policy**
-The base policy is located on the cluster’s master node. 
-E.g, /etc/kubernetes/logpolicy/sample-policy.yaml
-    And this will be mentioned in kube-apiserver.yaml too. 
+The base policy is located on the cluster’s master node.
+  E.g, /etc/kubernetes/logpolicy/sample-policy.yaml
+And this will be mentioned in kube-apiserver.yaml too.
 
 Log policy can specifies what not to log, e.g:
-    - Do not log watch requests by the "system:kube-proxy" on endpoints or services
+- Do not log watch requests by the "system:kube-proxy" on endpoints or services
 And it can specify what to log, e.g:
-    - Cronjobs persistentvolumes changes at RequestResponse level.
-	   记录 RequestResponse 级别的 persistentvolumes 相关的更改。
-    - Log namespaces changes at RequestResponse level
-       记录 RequestResponse 级别的 namespaces 相关的更改。
-	- Log all other resources in core and extensions at the Request level.
-	   记录 Request level 的所有 core 和 extensions 的其他资源。
-	- Log all configMap and secret changes in all namespaces at the Metadata level
-       Metadata 级别的所有 namespace 中的 ConfigMap 和 Secret 的更改。
-    - A catch-all rule to log all other requests at the Metadata level.
-       全方位的规则以在 Metadata 级别记录所有其他请求。
-	- Log the request body of deployments/pod changes in a namespace.
-	   记录某个 namespace 中 configmaps/deployments 更改的 request body请求体。
+- Cronjobs persistentvolumes changes at RequestResponse level.
+  记录 RequestResponse 级别的 persistentvolumes 相关的更改。
+- Log namespaces changes at RequestResponse level
+  记录 RequestResponse 级别的 namespaces 相关的更改。
+- Log all other resources in core and extensions at the Request level.
+  记录 Request level 的所有 core 和 extensions 的其他资源。
+- Log all configMap and secret changes in all namespaces at the Metadata level
+  Metadata 级别的所有 namespace 中的 ConfigMap 和 Secret 的更改。
+- A catch-all rule to log all other requests at the Metadata level.
+  全方位的规则以在 Metadata 级别记录所有其他请求。
+- Log the request body of deployments/pod changes in a namespace.
+  记录某个 namespace 中 configmaps/deployments 更改的 request body请求体。
 
 **API Server Configure File's Location**
-Master Node: /etc/kubernetes/manifests/kube-apiserver.yaml 
-
+Master Node: /etc/kubernetes/manifests/kube-apiserver.yaml
 
 ### 1.How To
 
 **Prepare Log Policy**
+
 ```sh
 $ ssh to master node
 ### This location will be mentioned in kube-apiserver.yaml 
@@ -65,17 +65,17 @@ $ vi /etc/kubernetes/logpolicy/policy.yaml
     rules:
      # Do not log watch requests by the "system:kube-proxy" on endpoints or services
      - level: None         
-	   users: ["system:kube-proxy"]           
-	   verbs: ["watch"] 
-	   resources:
-	   - group: ""
-	     resources: ["endpoints", "services"]
+    users: ["system:kube-proxy"]           
+    verbs: ["watch"] 
+    resources:
+    - group: ""
+      resources: ["endpoints", "services"]
       # Don't log authenticated requests to certain non-resource URL paths.
-	  - level: None                              
-	    userGroups: ["system:authenticated"]
-	    nonResourceURLs:
-	    - "api*"                                 # Wildcard matching.
-	    - "/version"
+   - level: None                              
+     userGroups: ["system:authenticated"]
+     nonResourceURLs:
+     - "api*"                                 # Wildcard matching.
+     - "/version"
 
      # Log namespaces or persistentvolumes changes at RequestResponse level  
      - level: RequestResponse
@@ -105,6 +105,7 @@ $ vi /etc/kubernetes/logpolicy/policy.yaml
 ```
 
 **Enable Log Audit**
+
 ```sh
 ## where to store the logs
 $ mkdir /var/log/kubernetes/
