@@ -33,17 +33,17 @@ Log policy can specifies what not to log, e.g:
 - Do not log watch requests by the "system:kube-proxy" on endpoints or services
 And it can specify what to log, e.g:
 - Cronjobs persistentvolumes changes at RequestResponse level.
-  记录 RequestResponse 级别的 persistentvolumes 相关的更改。
+  > 记录 RequestResponse 级别的 persistentvolumes 相关的更改。
 - Log namespaces changes at RequestResponse level
-  记录 RequestResponse 级别的 namespaces 相关的更改。
+  > 记录 RequestResponse 级别的 namespaces 相关的更改。
 - Log all other resources in core and extensions at the Request level.
-  记录 Request level 的所有 core 和 extensions 的其他资源。
+  > 记录 Request level 的所有 core 和 extensions 的其他资源。
 - Log all configMap and secret changes in all namespaces at the Metadata level
-  Metadata 级别的所有 namespace 中的 ConfigMap 和 Secret 的更改。
+  > Metadata 级别的所有 namespace 中的 ConfigMap 和 Secret 的更改。
 - A catch-all rule to log all other requests at the Metadata level.
-  全方位的规则以在 Metadata 级别记录所有其他请求。
+  > 全方位的规则以在 Metadata 级别记录所有其他请求。
 - Log the request body of deployments/pod changes in a namespace.
-  记录某个 namespace 中 configmaps/deployments 更改的 request body请求体。
+  > 记录某个 namespace 中 configmaps/deployments 更改的 request body请求体。
 
 **API Server Configure File's Location**
 Master Node: /etc/kubernetes/manifests/kube-apiserver.yaml
