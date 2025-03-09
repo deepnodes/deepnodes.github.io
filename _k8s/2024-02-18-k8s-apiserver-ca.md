@@ -12,6 +12,9 @@ paperurl: 'http://deepnodes.github.io//k8s/2024-02-18-k8s-apiserver-ca.md'
 citation: 'Deepnodes, Explore. (2024). &quot; Kubernetes Need to Know - CAs.&quot; <i>Cloud Computing Matrix</i>. 1(3).'
 ---
 
+The kube-apiserver.yaml file includes the kubelet's certificate authentication data. Where can we find the kubelet's cert-auth data:
+
+It is from "kubelet.conf"
 
 ```sh
 ### ca is in kubelet.conf
@@ -38,6 +41,7 @@ $ cat /etc/kubernetes/kubelet.conf
 
 ### decode, and save to file
 $ echo xxxxxxxxxxx | base64 -d > /etc/kubernetes/pki/apiserver-kubelet-ca.crt
+ 	# put yyyyyyyyyyyyyyy into the crt file
 $ cat /etc/kubernetes/pki/apiserver-kubelet-ca.crt
 	-----BEGIN CERTIFICATE-----
 	yyyyyyyyyyyyyyy
